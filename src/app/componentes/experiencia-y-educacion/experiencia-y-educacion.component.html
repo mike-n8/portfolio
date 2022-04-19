@@ -1,0 +1,56 @@
+<article class="post">
+    <div class="card mat-card" style="border-radius: 2%;">
+        <div id="experience">
+            <!-- <div class="card-titles"> -->
+            <h2>Experiencia</h2>
+            </div>
+        <ul>
+        <!-- class="items-list" -->
+        <li>
+            <div class="data-container">
+            <!-- <a href="#"> -->
+            <div class="logo-image-container">
+            <img
+            class="logo-image"
+            src="https://haupei24.com/wp-content/uploads/2021/06/S3PGJ7LSSZHBBL56DZSHUUMFIU.jpg"
+            width="150px"
+            />
+            </div>
+            </div>
+            <div>
+            <!--  class="list-info" -->
+            <h3>Backend Developer</h3>
+            <p>Pixar - Jornada parcial</p>
+            <h4 class="pro">mar 2019 - actualidad - 2 años y 6 meses</h4>
+            <h4 class="pro">Guadalajara y alrededores, México</h4>
+            </div>
+        </li>
+        </ul>
+
+    <div id="education">
+        <div class="card-titles">
+            <h2>Educación</h2>
+            </div>
+        <ul class="items-list">
+        <li *ngFor="let educacion of educacionList">
+            <div class="data-container">
+            <!-- <a href="#"> -->
+            <div class="logo-image-container">
+            <img
+            class="logo-image"
+            [src]="educacion.img" height="94"
+            />
+            </div>
+            <div class="list-info">
+            <div>
+            <h3>{{educacion.school}}</h3>
+            <p>{{educacion.career}}</p>
+            <p class="small"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+            </div>
+            </div>
+            </div>
+        </li>
+         </ul>
+            </div>
+    </div>
+</article>

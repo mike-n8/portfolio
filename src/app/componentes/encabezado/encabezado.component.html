@@ -1,0 +1,27 @@
+<section class="move" style="border-color: blue;">
+    <div class="card mat-card" style="border-radius: 1.5rem;">
+    <article>
+        <div class="parent">
+            <img class="honda" 
+            [src]="miPorfolio.backImage" height="400" width="1567">
+            <br><br><br>
+            <img class="david" 
+            [src]="miPorfolio.image" width="200">
+        </div>
+        <h1>{{miPorfolio.name}}</h1>
+        <div class="create" onclick="cambiar_imagen()"><i class="material-icons">create</i></div>
+        <p>{{miPorfolio.position}}</p>
+        <p>{{miPorfolio.ubication}} <a href="mailto:elmiki@gmail.com" class="mover">Información de contacto</a></p>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label id="boton" class="btn btn-outline-primary" for="btnradio1" onclick="mike()">Tengo interes en</label>
+  
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Añadir sección</label>
+  
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Más</label>
+        </div>
+    </article>
+</div>
+  </section>

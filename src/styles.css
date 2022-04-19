@@ -1,0 +1,111 @@
+.container {
+    width: 900px 900px;
+    margin: 100 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem -8.5rem;
+    border-radius: 2rem;
+    padding: 0.25rem 0;
+    /* cursor: pointer; */
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(128, 128, 128);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+.btn-group {
+    margin: 0rem 1rem;
+}
+
+.move article {
+    transition: box-shadow 0.3s ease;
+    margin: 0rem 0.5rem;
+    border-radius: 2rem;
+    /* cursor: pointer; */
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .honda {
+    position: relative;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+  .david {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    border-radius: 9rem;
+  }
+  .create {
+    position: absolute;
+    top: 475px;
+    left: 225px;
+    cursor: pointer;
+  }
+
+  .create:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(58, 57, 57);
+    border-radius: 100%;
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(190, 190, 190);
+  }
+
+  .create1 {
+    position: absolute;
+    top: 740px;
+    left: 180px;
+    cursor: pointer;
+  }
+
+  .create1:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(58, 57, 57);
+    border-radius: 100%;
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(190, 190, 190);
+  }
+
+  .proyectos {
+      color: blue;
+  }
+
+  .farmacia {
+      color: blue;
+  }
+
+  .pro {
+      color: gray;
+  }
+
+  .lg {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .small {
+      color: gray;
+  }
+
+  header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1rem;
+}
+
+header section {
+    float: right;
+}
+
+header p {
+    margin: 0;
+}
